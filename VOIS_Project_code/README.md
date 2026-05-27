@@ -1,28 +1,109 @@
----
-title: AI NIDS Student Project
-emoji: 🛡️
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: 1.39.0
-app_file: app.py
-pinned: false
+# 🛡️ AI-Based Intrusion Network System
+
+An AI-powered cybersecurity project designed to detect and analyze suspicious network activities using machine learning and network monitoring techniques. This system helps identify potential cyber threats, unauthorized access attempts, and abnormal traffic behavior in real time to improve network security and threat prevention.
+
 ---
 
-# 🛡️ AI-Based Network Intrusion Detection System (Student Project)
+## 🚀 Project Overview
 
-This project demonstrates how to use **Machine Learning (Random Forest)** and **Generative AI (Grok)** to detect and explain network attacks (specifically DDoS).
+The **AI-Based Intrusion Network System** is developed to enhance cybersecurity by combining artificial intelligence with network intrusion detection mechanisms. The project analyzes network traffic data, identifies malicious activities, and helps in proactive threat detection.
 
-## 🚀 How to Use
-1. **Enter API Key:** Paste your Grok API key in the sidebar (optional, for AI explanations).
-2. **Train Model:** Click the "Train AI Model" button. The system loads the `Friday-WorkingHours...` dataset automatically.
-3. **Simulate:** Click "Simulate Random Packet" to pick a real network packet from the test set.
-4. **Analyze:** See if the model flags it as **BENIGN** or **DDoS**, and ask Grok to explain why.
+The system focuses on:
 
-## 📂 Files
-- `app.py`: The main Python application code.
-- `requirements.txt`: List of libraries used.
-- `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: The dataset (CIC-IDS2017 subset).
+* Detecting unusual network behavior
+* Identifying potential attacks and intrusions
+* Improving response time against cyber threats
+* Providing intelligent monitoring using AI models
 
-## 🎓 About
-Created for a university cybersecurity project to demonstrate the integration of traditional ML and LLMs in security operations.
+---
+
+## ✨ Features
+
+* 🔍 Real-time network traffic monitoring
+* 🤖 AI/ML-based intrusion detection
+* 📊 Suspicious activity analysis
+* ⚠️ Threat detection and alert generation
+* 📈 Data-driven security insights
+* 🛡️ Enhanced network protection
+* 💻 Cybersecurity-focused architecture
+
+---
+
+## 🧠 Technologies Used
+
+* Python
+* Machine Learning
+* Network Security Concepts
+* Data Analysis
+* AI-based Detection Models
+* Git & GitHub
+
+---
+
+## 🎯 Objective
+
+The primary goal of this project is to develop an intelligent intrusion detection system capable of identifying cyber threats and unauthorized activities within a network environment using AI-driven analysis.
+
+---
+
+## 📂 Project Structure
+
+```bash
+VOIS_Project_code/
+│── dataset/
+│── models/
+│── scripts/
+│── results/
+│── main.py
+│── requirements.txt
+│── README.md
+```
+
+---
+
+## ⚙️ How It Works
+
+1. Collects network traffic data
+2. Processes and analyzes packets
+3. Uses AI/ML algorithms for pattern recognition
+4. Detects anomalies and suspicious activities
+5. Generates alerts for possible intrusions
+
+---
+
+## 📌 Applications
+
+* Enterprise Network Security
+* Cyber Threat Detection
+* Security Monitoring Systems
+* Educational Cybersecurity Projects
+* AI-based Security Research
+
+---
+
+## 🔮 Future Enhancements
+
+* Real-time dashboard integration
+* Advanced deep learning models
+* Cloud-based deployment
+* Automated threat response system
+* Improved detection accuracy
+* Live packet visualization
+
+---
+
+## 📸 Project Vision
+
+This project aims to contribute toward smarter and more adaptive cybersecurity systems by leveraging artificial intelligence for faster and more accurate intrusion detection in modern network environments.
+
+---
+
+## 🤝 Contribution
+
+Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit pull requests.
+
+---
+
+## 📜 License
+
+This project is developed for educational and research purposes.
